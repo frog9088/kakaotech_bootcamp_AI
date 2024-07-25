@@ -158,4 +158,4 @@ for images, row in zip([data.view(-1, 1, 28, 28).cpu(), output], axes):
 
 plt.show()
 ```
-
+![오토인코더](./autoencoder.png)
